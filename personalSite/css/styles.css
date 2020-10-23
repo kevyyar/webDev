@@ -1,0 +1,72 @@
+* {
+	/* margin: 0;
+	padding: 0;
+	box-sizing: border-box; */
+}
+body {
+	background-color: #e4e4e4;
+}
+
+hr {
+	width: 10%;
+	border-style: none;
+	border-top-style: dotted;
+	border-width: 10px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header .logo img {
+	/* display: inline-block; */
+	/* position: relative; */
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+header .personal-info {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+/* header .personal-info h1 {
+	padding-bottom: 20px;
+}
+
+header .personal-info p {
+	padding-bottom: 20px;
+} */
+
+/* Experience Section */
+#experience {
+	padding-top: 50px;
+}
+#skills {
+	padding-top: 50px;
+}
+
+table {
+	width: 75%;
+	border-collapse: collapse;
+}
+
+td,
+th {
+	border: 1px solid #000;
+	text-align: left;
+	padding: 10px;
+}
+
+tr:nth-child(even) {
+	background-color: #f1f1f1;
+}
